@@ -62,7 +62,10 @@ docker inspect <nombre imagen>:<tag>
 
 Inspeccionar la imagen hello-world 
 # COMPLETAR
+```
+docker inspect hello-world
 
+```
 
 **¿Con qué algoritmo se está generando el ID de la imagen?**
 El ID de la imagen en Docker se genera utilizando el algoritmo de hash SHA-256. Este algoritmo asegura que cada imagen tiene un identificador único basado en su contenido.
@@ -84,6 +87,9 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+```
+docker rmi hello-world
+```
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.

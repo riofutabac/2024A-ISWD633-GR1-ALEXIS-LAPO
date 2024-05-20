@@ -2,7 +2,7 @@
 
 ## Gestión de Contenedores
 
-Antes de abordar la práctica, ya tenía un buen conocimiento sobre la creación y gestión de contenedores Docker, pero al realizar la tarea, reforcé algunos conceptos clave y aprendí nuevas formas de abordar problemas comunes.
+Antes de abordar la práctica,no tenia un conocimiento sobre la creación y gestión de contenedores Docker, pero al realizar la tarea, reforcé algunos conceptos clave y aprendí nuevas formas de abordar problemas comunes.
 
 - Aprendí la importancia de verificar la existencia de contenedores con nombres específicos antes de crear uno nuevo, para evitar conflictos.
 - Reforcé el conocimiento sobre cómo detener y eliminar contenedores con comandos como `docker stop` y `docker rm`.

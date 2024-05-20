@@ -23,6 +23,10 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+
+```
+docker pull hello-world
+```
 # COMPLETAR
 
 
@@ -31,6 +35,9 @@ Nginx es un servidor web de código abierto que también puede ser utilizado com
 
 Descargar la imagen  **nginx** en la versión **alpine**
 
+```
+docker pull nginx:alpine
+```
 
 # COMPLETAR
 

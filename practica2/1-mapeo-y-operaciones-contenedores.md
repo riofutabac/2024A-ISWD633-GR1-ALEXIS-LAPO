@@ -105,6 +105,7 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 ```
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+![Imagen](imagenes/captura1-2.png)
 ![Imagen](imagenes/captura4-2.png)
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 

@@ -61,3 +61,5 @@ docker run -d --name mysql-container --env-file=mysql.env -P mysql:8
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 # COMPLETAR
+
+![Imagen](imagenes/captura13-2.png)

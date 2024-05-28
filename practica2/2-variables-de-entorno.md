@@ -11,21 +11,31 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 ### Crear un contenedor a partir de la imagen de nginx:alpine con las siguientes variables de entorno: username y role. Para la variable de entorno rol asignar el valor admin.
 
 # COMPLETAR
+```
+docker run -d --name nginx-container -e username=Alexis -e role=admin nginx:alpine
 
+```
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
-
+![Imagen](imagenes/captura5-2.png)
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
 # COMPLETAR
-
+```
+docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=root -P mysql:8
+```
 ### ¿El contenedor se está ejecutando?
 # COMPLETAR
-
+```
+docker ps
+```
 ### Identificar el problema
 # COMPLETAR
-
+```
+docker logs mysql-container
+```
 ### Eliminar el contenedor creado con mysql:8 
-# COMPLETAR
-
+```
+docker rm -f mysql-container
+```
 ### Para crear un contenedor con variables de entorno especificadas
 - Portabilidad: Las aplicaciones se vuelven más portátiles y pueden ser desplegadas en diferentes entornos (desarrollo, pruebas, producción) simplemente cambiando el archivo de variables de entorno.
 - Centralización: Todas las configuraciones importantes se centralizan en un solo lugar, lo que facilita la gestión y auditoría de las configuraciones.
@@ -41,9 +51,15 @@ docker run -d --name <nombre contenedor> --env-file=<nombreArchivo>.<extensión>
 Es necesario especificar la ruta absoluta del archivo si este se encuentra en una ubicación diferente a la que estás ejecutando el comando docker run.
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
-# COMPLETAR
 
+# COMPLETAR
+```
+docker run -d --name mysql-container --env-file=mysql.env -P mysql:8
+```
+![Imagen](imagenes/captura6-2.png)
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 # COMPLETAR
+
+![Imagen](imagenes/captura13-2.png)

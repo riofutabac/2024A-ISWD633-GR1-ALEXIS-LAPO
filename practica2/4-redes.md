@@ -52,5 +52,4 @@ docker network ls
 ![Imagen](imagenes/captura10-2.png)
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
 ![Imagen](imagenes/captura11-2.png)
-# Eliminar las redes credenciales
 

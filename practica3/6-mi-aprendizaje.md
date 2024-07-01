@@ -31,4 +31,3 @@ Durante la práctica, enfrenté un problema de conexión con pgAdmin, que soluci
 
 ### Beneficio para la Formación Profesional
 Este ejercicio práctico ha mejorado significativamente mis habilidades técnicas en Docker, esenciales para la ingeniería de software moderna. La capacidad de implementar y gestionar entornos de desarrollo y producción con Docker es altamente valorada en la industria, preparándome mejor para enfrentar desafíos reales en el desarrollo de software y en infraestructura de TI. Esta experiencia práctica fortalece mi base teórica y me proporciona una ventaja competitiva en el ámbito profesional, especialmente en la implementación de soluciones containerizadas y la gestión de datos persistentes.
-```
